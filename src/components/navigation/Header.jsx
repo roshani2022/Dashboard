@@ -27,7 +27,7 @@ function Header() {
       <Typography style={{ marginRight: '1rem' }}>Welcome</Typography>
       <Typography>Happy Trading</Typography>
     </div>
-    <div style={{ display: 'flex', flexGrow: 1, justifyContent: 'space-around' }}>
+    <div style={{ display: 'flex', flexGrow: 1, justifyContent: 'space-around'}}>
     {menuItems.map((item, index) => (
       <Link
         key={index}
